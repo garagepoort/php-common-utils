@@ -1,0 +1,12 @@
+{
+  "name": "bendani/php-common/utils",
+  "autoload": {
+    "psr-4": {
+      "Bendani\\PhpCommon\\Utils\\": "src"
+    }
+  },
+  "require": {
+    "illuminate/routing": "~4.0",
+    "illuminate/support": "~4.0"
+  }
+}
