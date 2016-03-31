@@ -1,6 +1,6 @@
 <?php
 
-namespace Bendani\PhpCommon\Utils\Model;
+namespace Bendani\PhpCommon\Utils;
 
 class StringUtils {
 

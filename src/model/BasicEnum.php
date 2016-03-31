@@ -2,6 +2,8 @@
 
 namespace Bendani\PhpCommon\Utils\Model;
 
+use ReflectionClass;
+
 abstract class BasicEnum {
     private static $constCacheArray = NULL;
 
