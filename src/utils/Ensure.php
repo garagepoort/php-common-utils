@@ -54,7 +54,7 @@ class Ensure
     public static function arrayHasLength($field, $value, $length, $message)
     {
         Ensure::objectIsArray($field, $value, $message);
-        if(!count($value) === $length){
+        if(count($value) !== $length){
             if($message == null){
                 throw new ServiceException("Array " . $field . " must have length " .  $length);
             }else{
